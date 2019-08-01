@@ -1,0 +1,14 @@
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 50px 60px;
+}
+
+.logo {}
+
+.nav {}
+
+.contact {}
