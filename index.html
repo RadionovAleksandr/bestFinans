@@ -24,7 +24,8 @@
     </div>
     </div>
     <!-- <div class="nav">Услуги</div> -->
-    <div class="page-header__contact">8 999 999 4545</div>
+    <!-- <div class="page-header__contact">8 999 999 4545</div> -->
+    <a class="page-header__contact" href="tel:+7 999 999 4545">8 999 999 4545</a>
 
 </header>
 
@@ -106,9 +107,60 @@
             </div>
         </div>    
 </section>
+<section class="contacts">
+        <div class="contacts__address">
+            <h5 class="contacts__title">Мы будем рады ответить на наши вопросы</h5>
+            <div class="contacts__wrap">
+                <div class="contacts__dir">
+                    <img class="contacts__dir-photo" src="" alt="Бухгалтер">
+                    <b class="contacts__dir-name">Зоммер Светлана Николаевна</b>
+                </div>
+                <a class="contacts__phone" href="tel:+7 999 999 4545">8 999 999 4545</a>
+                <p class="contacts__mail">
+                    <span class="contacts__wrap-item">e-mail:</span>
+                    <span class="contacts__decoration-mail">zommer.svetlana@mail.ru</span>
+                </p>
+                <p class="contacts__address-name">
+                    <span class="contacts__wrap-item">адрес:</span>
+
+                    <span class="contacts__box">
+                        г. Горно-Алтайск, Россия, Республика Алтай, Горно-Алтайск, улица Улагашева 13, офис 210<br>
+                    </span>
+                </p>
+            </div>
+            <button class="contacts__btn button">Напишите нам</button>
+        </div>
+        <div class="contacts__map-wrap">
+            <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1194.2745150638568!2d85.95672025493067!3d51.96060140137738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42c4ff679be81007%3A0xf1b51e3142600be6!2z0YPQuy4g0KPQu9Cw0LPQsNGI0LXQstCwLCAxMywg0JPQvtGA0L3Qvi3QkNC70YLQsNC50YHQuiwg0KDQtdGB0L8uINCQ0LvRgtCw0LksIDY0OTAwMA!5e0!3m2!1sru!2sru!4v1564980439180!5m2!1sru!2sru" 
+             height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+
 </main>
 
 </body>
 <footer></footer>
-
+<section class="modal-window">
+        <h2 class="modal-winow__title">Напишите нам</h2>
+        <button class="modal-window__close-btn"></button>
+        <form class="modal-window__login-form" action="#" method="post">
+            <fieldset class="modal-window__user-name">
+                <legend><label class="" for="user-login"><b>Ваше имя:</b></label></legend>
+                <input class="modal-window__input_user" id="user-login" type="text" name="login"
+                    placeholder="Представтесь, пожалуйста">
+            </fieldset>
+            <fieldset class="modal-window__user-mail">
+                <legend><label class="" for="user-email"><b>Ваш e-mail:</b></label></legend>
+                <input class="modal-window__input_email" id="user-email" type="email" name="email"
+                    placeholder="Для отправки ответа">
+            </fieldset>
+            <fieldset class="modal-window__text-area">
+                <legend><label for="textarea"><b>Текст письма:</b></label></legend>
+                <textarea class="text-letter" name="textarea" id="textarea" cols="30" rows="10"
+                    placeholder="В свободной форме"></textarea>
+            </fieldset>
+            <button class="modal-window__btn button" type="submit">Отправить</a>
+        </form>
+    </section>
+    <script src="js/bestFinanse.js"></script>
 </html>
