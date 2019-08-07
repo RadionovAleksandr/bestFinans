@@ -76,45 +76,82 @@
     /* max-height: 300px; */
 }
 
+
+.service__image-box {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.service__image-box--1 {
+    left: -5%;
+    top: 15px;
+    background: radial-gradient(circle closest-side, #1BA6E8 0%, white 100%);
+}
+.service__image-box--2 {
+    left: 15%;
+    top: 200px;
+    background: radial-gradient(circle closest-side, #3DC24F 0%, white 100%);
+}
+
+.service__image-box--3 {
+    left: 38%;
+    top: 100px;
+    background: radial-gradient(circle closest-side, #F96F79 0%, white 100%);
+}
+
+.service__image-box--4 {
+    left: 60%;
+    top: 200px;
+    background: radial-gradient(circle closest-side, #6A78C6 0%, white 100%);
+}
+
+.service__image-box--5 {
+    left: 75%;
+    top: 25px;
+    background: radial-gradient(circle closest-side, #1FC6AD 0%, white 100%);
+}
+
+.service__image-box--6 {
+    left: 100%;
+    top: 180px;
+    background: radial-gradient(circle closest-side, #FCB13D 0%, white 100%);
+}
+
 .service__image {
     position: absolute;
 background-size: contain;
 background-repeat: no-repeat;
+left: 15%;
+top: 15%;
+
 }
+
 .service__image--1{
-    left: -5%;
-    top: 15px;
 background-image: url(../img/47018eb7db99411545749bd18ec2640c.png);
 }
 
 .service__image--2 {
-    left: 15%;
-    top: 200px;
 background-image: url(../img/c4282adea75c288db30f7e905d3fd4bd.png);
 }
 
 .service__image--3 {
-    left: 38%;
-    top: 100px;
     width: 140px;
     height: 140px;
-background-image: url(../img/eadd0f1ff81606f1bebafd7668898140.png);
+    left: 11%;
+    top: 11%;
+    background-image: url(../img/eadd0f1ff81606f1bebafd7668898140.png);
 }
 
 .service__image--4 {
-    left: 60%;
-    top: 200px;
 background-image: url(../img/293c356b488255ec19ce858919d6d25e.png);
 }
 
 .service__image--5 {
-    left: 75%;
-    top: 25px;
 background-image: url(../img/733265e6f96b7db225793671cbc8f2dc.png);
 }
 .service__image--6 {
-    left: 100%;
-    top: 180px;
 background-image: url(../img/3cd23ceedbc839ef6703d91204b05714.png);
 }
 
@@ -176,6 +213,8 @@ justify-content: center;
     font-size: 26px;
 }
 
+
+
 .contacts__dir {
     display: flex;
     flex-direction: column;
@@ -184,6 +223,13 @@ justify-content: center;
 .contacts__phone {
     text-decoration: none;
     color:black;
+}
+
+.contacts__dir-photo {
+    align-self: center;
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
 }
 
 .contacts__btn {
@@ -197,7 +243,7 @@ justify-content: center;
     position: fixed;
     left: 50%;
     margin-left: -490px;
-    bottom: 180px;
+    bottom: 0;
     width: 780px;
     padding: 70px 100px 85px 100px;
     box-shadow: 0 15px 60px black;
